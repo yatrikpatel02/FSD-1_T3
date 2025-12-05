@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-white fixed-top" id="#parent">
+        <div class="container-fluid">
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#section1">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="parent">
+        <div id="section1" class="container-fluid bg-success" style="height: 800px;padding-top:100px;">
+            <h1>
+                Home Data
+            </h1>
+        </div>
+        <div id="section2" class="container-fluid bg-warning" style="height: 800px;">
+            <h1>
+                About Data
+            </h1>
+        </div>
+        <div id="section3" class="container-fluid bg-info" style="height: 800px;">
+            <h1>
+                contact Data
+            </h1>
+        </div>
+    </div>
+</body>
+
+</html>
